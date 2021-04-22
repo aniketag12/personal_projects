@@ -39,7 +39,7 @@ app.post("/" , function(req,res){
   var url = 'https://' + 'us1' + '.api.mailchimp.com/3.0/lists/ea49b08a24' ;
   const options = {
     method : "POST" ,
-    auth : "aniket:9a57f5cb6e989fda2636019911670f8f-us1"
+    auth : "aniket:{api key} 
   }
   const request = https.request(url , options , function(response){
 
